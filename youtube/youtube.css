@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 span{
+    display: inline-block;
+align-items: center;
+height: 25px;
+margin: 2px 10px;
+padding: 3px 3px;
+}
+.nav1 .material-symbols-outlined:hover{
+    background-color:  rgb(179, 179, 179);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#image{
+    display: inline-block;
+    width: 90px;
+    align-items: center;
+
+    
+}
+#image:hover{
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    height: 40px;
+    width: 40vw;
+    border-top-left-radius:16px;
+    border-bottom-left-radius: 16px;
+    border: 0.5px solid black;
+    font-size: 20px;
+    padding: 0px 4px;
+}
+#sb{
+    height:26px ;
+    padding: 6px 20px;
+    border: 0.5px solid black;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+#sb:hover{
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+}
+.nav3 span{
+    height: 25px;
+    padding: 2px 2px;
+    margin: 0px 5px;
+}
+.nav3 span:hover{
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+    border-radius: 15px;
+}

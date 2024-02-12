@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+   
+    padding: 5px;
+}
+.body{
+    background-image: url(./images/white-background.avif);
+    width: 100vw;
+    height: 100vh;
+}
+#img{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+}
