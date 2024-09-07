@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+   <style>
+    #main{
+        padding-top: 90px;
+    }
+   </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Mohammed Bilal</a>
+            <div class="d-theme">
+                <button onclick="myFunction()" class="tbtn" id="tbtn"><img id="ib" src="../images/brightness-high.svg"
+                        alt=""></button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./social.html">Connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://drive.google.com/file/d/1PIeq49VppU81o8iWB3xx9AIBbtNhr_W1/view?usp=sharing">CV</a>
+                    </li>
+                </ul>
+                <h6>Portfolio</h6>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div class="container">
+            <div class="row">
+                <h1>Skills</h1>
+            <hr>
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/python.png"
+                        alt="">
+                    <h2 class="fw-normal">Python programming</h2>
+                    <p>Python Programmer | Expert in Building Efficient and Versatile Applications | Passionate About
+                        Harnessing Python's Power to Deliver Innovative Solutions.</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/mysql.png"
+                        alt="">
+                    <h2 class="fw-normal"> MySql</h2>
+                    <p>MySQL Database Administrator | Proficient in Database Design, Optimization, and Management |
+                        Committed to Ensuring Data Integrity and Performance..</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/office.png"
+                        alt="">
+                    <h2 class="fw-normal">MS Office</h2>
+                    <p>Microsoft Office Specialist | Skilled in Using Word, Excel, PowerPoint to Enhance Productivity
+                        and Collaboration | Committed to Efficient Workflow and Effective Communication.</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/java.png"
+                        alt="">
+                    <h2 class="fw-normal">Java programming</h2>
+                    <p>Java Programmer | Expert in Developing Scalable Solutions | Passionate About Leveraging Java to
+                        Solve Complex Problems.</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/web.jpg"
+                        alt="">
+                    <h2 class="fw-normal">Web development</h2>
+                    <p>Frontend Web Developer | Specialist in Crafting Engaging User Interfaces and Seamless User
+                        Experiences | Proficient in HTML, CSS.</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/dsa.png"
+                        alt="">
+                    <h2 class="fw-normal">Data structures</h2>
+                    <p>Data Structures and Algorithms | Skilled in Optimizing Solutions and Enhancing Performance |
+                        Proficient in Problem-Solving and Algorithm Design.</p>
+
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 scard">
+                    <img class="bd-placeholder-img rounded-circle" width="100" height="100" src="../images/ct.png"
+                        alt="">
+                    <h2 class="fw-normal">creative thinking</h2>
+                    <p>Creative Problem Solver | Skilled in Generating Innovative Ideas and Finding Unique Solutions |
+                        Committed to Thinking Outside the Box.</p>
+
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        function myFunction() {
+          var bdy=document.getElementById("main");
+          var img=document.getElementById("ib");
+          var btn=document.getElementById("tbtn")
+          var stext=document.getElementById("stext")
+          var wb="../images/brightness-high.svg";
+          var db="../images/moon-fill.svg";
+          if(bdy.style.backgroundColor=="black"){
+              bdy.style.backgroundColor="white";
+              bdy.style.color="black";
+              ib.src=wb;
+              stext.style.color="#212529BF";
+            }
+          else{
+              bdy.style.backgroundColor="black";
+              bdy.style.color="white";
+              ib.src=db;
+              stext.style.color="#8a949dbf";
+            }
+        }
+    </script>
+</body>
+
+</html>

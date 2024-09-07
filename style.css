@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 600px){
+    .img{
+        height: 20em;
+    }
+}
+@media only screen and (max-width: 450px){
+    .img{
+        height: 18em;
+    }
+}
+.carousel{
+    margin-bottom: 50px;
+}
+.scard{
+    margin-bottom: 40px;
+}
+hr{
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 20px;
+}
+h6{
+    color: white;
+    float: right;
+}
+.d-theme{
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.tbtn{
+  background-color: white;
+  border-radius: 50px;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main{
+  background-color: white;
+  color: black;
+}
+#ib{
+  transition: 1s;
+}
+#stext{
+  color: #212529BF;
+}
